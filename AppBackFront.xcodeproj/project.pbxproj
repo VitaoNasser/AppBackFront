@@ -15,6 +15,7 @@
 		DCB37B472A609277009385B5 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB37B462A609277009385B5 /* AlertController.swift */; };
 		DCBEC7BF2A6773A500A440BC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEC7BE2A6773A500A440BC /* TabBarVC.swift */; };
 		DCBEC7C42A6773EB00A440BC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEC7C32A6773EB00A440BC /* HomeVC.swift */; };
+		DCBEC7C72A67783400A440BC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEC7C62A67783400A440BC /* HomeScreen.swift */; };
 		DCE4ABAC2A54CAE70087382E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4ABAB2A54CAE70087382E /* AppDelegate.swift */; };
 		DCE4ABAE2A54CAE70087382E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4ABAD2A54CAE70087382E /* SceneDelegate.swift */; };
 		DCE4ABB02A54CAE70087382E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4ABAF2A54CAE70087382E /* LoginViewController.swift */; };
@@ -30,6 +31,7 @@
 		DCB37B462A609277009385B5 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		DCBEC7BE2A6773A500A440BC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		DCBEC7C32A6773EB00A440BC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DCBEC7C62A67783400A440BC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		DCE4ABA82A54CAE70087382E /* AppBackFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBackFront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE4ABAB2A54CAE70087382E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE4ABAD2A54CAE70087382E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		DCBEC7C12A6773C500A440BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DCBEC7C52A6777FE00A440BC /* Screen */,
 				DCBEC7C32A6773EB00A440BC /* HomeVC.swift */,
 			);
 			path = Home;
@@ -125,6 +128,14 @@
 			children = (
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		DCBEC7C52A6777FE00A440BC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DCBEC7C62A67783400A440BC /* HomeScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		DCE4AB9F2A54CAE70087382E = {
@@ -245,6 +256,7 @@
 				DCBEC7C42A6773EB00A440BC /* HomeVC.swift in Sources */,
 				DCB37B422A5FA00F009385B5 /* UIViewController+Extension.swift in Sources */,
 				DCB37B472A609277009385B5 /* AlertController.swift in Sources */,
+				DCBEC7C72A67783400A440BC /* HomeScreen.swift in Sources */,
 				DCB37B442A5FA6D2009385B5 /* String+Extension.swift in Sources */,
 				DCBEC7BF2A6773A500A440BC /* TabBarVC.swift in Sources */,
 				DCE4ABAE2A54CAE70087382E /* SceneDelegate.swift in Sources */,
