@@ -12,9 +12,11 @@ class LoginViewController: UIViewController {
     
     var loginView: LoginView?
     var auth: Auth?
+    var alert: AlertController?
     
     override func loadView() {
         loginView = LoginView()
+        alert = AlertController(controller: self)
         view = loginView
     }
     
@@ -58,6 +60,7 @@ extension LoginViewController: LoginViewProtocol {
             if error != nil {
                 // se erro diferente de nil, logo tem erro
                 print(error?.localizedDescription ?? "")
+                self.alert?.getAlert(title: "Falha no Login", message: error?.localizedDescription ?? "")
             } else {
                 // sucesso
                 print("sucesso na autenticação")
